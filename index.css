@@ -291,7 +291,7 @@ p {
     }
 
     .header {
-        height: fit-content;
+        height: auto;
         padding: 8rem 0 0 0;
     }
 
@@ -310,6 +310,7 @@ p {
     }
 
     .headerRight {
+        position: static;
         text-align: center;
         align-self: unset;
     }
