@@ -29,10 +29,14 @@ h3 {
 }
 
 a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 3.8rem;
     line-height: 3.8rem;
     border-radius: 1.9rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     background-color: #33C3F0;
     color: #FFFFFF;
@@ -53,17 +57,34 @@ p {
 
 .row {
     width: 960px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .rImg > img {
@@ -79,12 +100,16 @@ p {
 
 .header > .row {
     height: 100%;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .headerLeft {
     width: 460px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 
 .headerLeft > a {
@@ -92,7 +117,8 @@ p {
 }
 
 .headerRight {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     position: relative;
 }
 
@@ -126,9 +152,16 @@ p {
 }
 
 .valuesCol {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .values h2 {
@@ -181,7 +214,9 @@ p {
 }
 
 .imageDemo > .container > .row {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .imageDemo .rImg {
@@ -274,7 +309,10 @@ p {
     }
 
     .imageDemo > .container > .row {
-        flex-flow: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
     }
 
     .imageDemo p {
@@ -289,7 +327,10 @@ p {
 
 @media (max-width: 550px) {
     .row {
-        flex-flow: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
     }
 
     .header {
@@ -304,7 +345,9 @@ p {
 
     .header > .row > .headerLeft {
         width: 100%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .header h2 {
@@ -315,7 +358,8 @@ p {
     .headerRight {
         position: static;
         text-align: center;
-        align-self: unset;
+        -ms-flex-item-align: unset;
+            align-self: unset;
     }
 
     .iphoneLarge {
