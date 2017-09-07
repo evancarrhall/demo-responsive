@@ -310,7 +310,7 @@ p {
     }
 
     .headerRight {
-        position: unset;
+        position: static;
         text-align: center;
         align-self: unset;
     }
