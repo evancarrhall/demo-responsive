@@ -53,7 +53,7 @@ p {
 
 .row {
     width: 960px;
-    height: auto;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@ p {
 }
 
 .headerLeft {
-    height: auto;
+    height: fit-content;
     width: 460px;
     align-items: flex-start;
 }
