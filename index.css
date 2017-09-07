@@ -83,7 +83,7 @@ p {
 }
 
 .headerLeft {
-    height: fit-content;
+    height: auto;
     width: 460px;
     align-items: flex-start;
 }
@@ -93,7 +93,7 @@ p {
 }
 
 .headerRight {
-    height: fit-content;
+    height: auto;
     align-self: flex-end;
     position: relative;
 }
@@ -295,7 +295,7 @@ p {
     }
 
     .header {
-        height: fit-content;
+        height: auto;
         padding: 8rem 0 0 0;
     }
 
@@ -314,6 +314,7 @@ p {
     }
 
     .headerRight {
+        height: auto;
         position: static;
         text-align: center;
         align-self: unset;
