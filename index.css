@@ -300,7 +300,6 @@ p {
     }
 
     .header > .row {
-        height: fit-content;
         width: 85%;
     }
 
