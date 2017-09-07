@@ -291,7 +291,7 @@ p {
     }
 
     .header {
-        height: auto;
+        height: max-content;
         padding: 8rem 0 0 0;
     }
 
@@ -310,7 +310,7 @@ p {
     }
 
     .headerRight {
-        position: static;
+        position: unset;
         text-align: center;
         align-self: unset;
     }
@@ -320,7 +320,7 @@ p {
         right: unset;
         bottom: -40px;
         width: 80%;
-        height: unset;
+        height: auto;
     }
 
     .iphoneSmall {
