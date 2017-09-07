@@ -291,7 +291,7 @@ p {
     }
 
     .header {
-        height: max-content;
+        height: unset;
         padding: 8rem 0 0 0;
     }
 
@@ -310,7 +310,7 @@ p {
     }
 
     .headerRight {
-        position: static;
+        position: unset;
         text-align: center;
         align-self: unset;
     }
