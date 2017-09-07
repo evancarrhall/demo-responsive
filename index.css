@@ -91,6 +91,7 @@ p {
 }
 
 .headerRight {
+    height: fit-content;
     align-self: flex-end;
     position: relative;
 }
@@ -191,6 +192,7 @@ p {
     color: #FFFFFF;
     font-size: 3.6rem;
     letter-spacing: -0.1rem;
+    text-align: center;
 }
 
 .imageDemo p {
