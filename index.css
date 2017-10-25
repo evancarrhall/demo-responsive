@@ -48,6 +48,10 @@ a {
     font-weight: 600;
 }
 
+a:hover {
+    background-color: #1EAEDB
+}
+
 p {
     font-weight: 300px;
     line-height: 2.5rem;
